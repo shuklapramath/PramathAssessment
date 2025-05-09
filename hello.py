@@ -13,7 +13,7 @@ filtered_df = query(sql, df)
 text("# My Data Analysis App")
 table(filtered_df)
 
-# Add summary statistics
+# Summary stats
 text("## Summary Statistics")
 summary_stats = df.describe()
 table(summary_stats)
